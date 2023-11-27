@@ -1,4 +1,4 @@
-import DiaIcon from "../../assets/clientes.svg";
+import DiaIcon from "../../assets/clientecheck.svg";
 import PapperredIcon from "../../assets/pappered.svg";
 import PapperIcon from "../../assets/pappergreen.svg";
 import CobranIcon from "../../assets/papperedyellow.svg";

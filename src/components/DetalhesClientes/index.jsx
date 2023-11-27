@@ -1,15 +1,15 @@
-import "./styles.css";
-import { Descriptions } from "antd";
-import Edit from "../../Assets/edit.svg";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
-import clientData from "./clientData";
-import ClientFilter from "../../assets/ClientFilter.svg";
+import { Descriptions } from "antd";
 import Lixo from "../../Assets/Lixo.svg";
+import Edit from "../../Assets/edit.svg";
+import ClientFilter from "../../assets/ClientFilter.svg";
+import clientData from "./clientData";
+import "./styles.css";
 
 const items = [
   {
@@ -72,7 +72,7 @@ const DetalheClients = () => (
   <div className="App-Informacao-Container">
     <div className="info-conteiner">
       <div className="clients-icon-detalhe">
-        <img src="/src/Assets/clients.svg" alt="Clients Icon" />
+        <img src="/src/Assets/clientes.svg" alt="Clients Icon" />
         <h1 className="title">Clientes</h1>
       </div>
 
