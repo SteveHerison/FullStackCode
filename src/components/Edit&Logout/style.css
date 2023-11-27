@@ -1,0 +1,33 @@
+.balloon {
+  display: inline-flex;
+  padding: 8px 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 11px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: -5px;
+}
+
+.edit,
+.exit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #747488;
+  font-family: Nunito;
+  font-size: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.edit {
+  gap: 4px;
+}
+
+.exit {
+  width: 24px;
+  height: 24px;
+}

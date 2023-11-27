@@ -1,0 +1,35 @@
+.wrapper {
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+
+.input {
+  font-family: var(--type-first);
+  font-weight: 400;
+  border: 1px solid #d0d5dd;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: #da0175;
+  box-shadow: 0 0 0 1px #e94da0dc;
+}
+
+.error {
+  color: #e70000;
+  font-size: 14px;
+  margin-top: 5px;
+}

@@ -1,0 +1,55 @@
+.table-container-material {
+  max-height: 70vh;
+  margin: 12px 24px;
+}
+
+.container-tablecell {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* div do cabeçalho da tabela para o icone ficar em posicao correta*/
+.box-client-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box-img-cobranca img {
+  width: 50px;
+}
+
+/*  status do cliente */
+
+.box-table-status {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 110px;
+
+  padding: 0px 8px;
+
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.status-inadimplente {
+  background-color: #ffefef;
+  color: #971d1d;
+}
+
+.status-emdia {
+  background-color: #eef6f6;
+  color: #1fa7af;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  width: auto !important;
+  margin: 2% 5%;
+}
+
+.css-1ex1afd-MuiTableCell-root h3 {
+  cursor: pointer;
+}

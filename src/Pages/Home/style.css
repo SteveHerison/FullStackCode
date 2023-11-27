@@ -1,0 +1,286 @@
+.app {
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+  background: var(--cinzas-cinza-8, #f8f8f9);
+}
+.container-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.Principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0px 3%;
+  margin: 0 2%;
+  height: auto;
+}
+
+.blocos-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bloco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 46px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.bloco-indiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.bloco-esquerda {
+  border-radius: 30px;
+  background: #eef6f6;
+}
+
+.bloco-meio {
+  border-radius: 30px;
+  background: #ffefef;
+}
+
+.bloco-direita {
+  border-radius: 30px;
+  background: #fcf6dc;
+}
+
+.bloco img {
+  width: 40px;
+}
+
+.bloco P {
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.bloco h2 {
+  color: var(--cinzas-cinza-2, #3f3f55);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+.client-Container {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+  color: #6e6e85c1;
+  border-bottom: #3f3f5531 solid 1px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.07px;
+}
+.client-Container span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.client-box-final {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4%;
+  box-shadow: 1px 2px 5px 1px rgba(172, 217, 197, 0.447);
+  margin-bottom: 10px; /* Ajuste opcional */
+}
+
+.client-box-final strong {
+  color: #3f3f55;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.client-box-final .red-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 40px;
+  height: 20px;
+  color: #971d1d;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  background-color: rgba(151, 29, 29, 0.2);
+}
+
+.client-box-final .gree-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 40px;
+  height: 20px;
+  color: #0e8750;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  background-color: rgba(31, 167, 175, 0.2);
+}
+
+.iconCardG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unde-top {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: #34344735 solid 1px;
+}
+
+.se {
+  display: flex;
+  width: 100%;
+  height: 48px;
+
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.se-all {
+  color: #da0175;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.se-all:hover {
+  text-decoration: underline;
+  color: #da0175;
+}
+
+.card-t {
+  display: flex;
+  width: 100%;
+  height: 58px;
+  padding: 0 30px;
+
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: rgba(128, 128, 128, 0.208) solid 1px;
+}
+
+@media only screen and (min-width: 900px) {
+  .Principal {
+    height: auto;
+  }
+
+  .client-box-final {
+    width: 47%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .Principal {
+    padding: 0 5%;
+    margin: 0 2%;
+    height: auto;
+  }
+
+  .blocos-container {
+    flex-direction: row;
+  }
+
+  .bloco {
+    width: 30%;
+  }
+
+  .add {
+    flex-direction: row;
+  }
+
+  .client-box-final {
+    width: 47%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Principal {
+    padding: 0 5%;
+    margin: 0 2%;
+    height: auto;
+  }
+
+  .blocos-container {
+    flex-direction: column;
+  }
+
+  .bloco {
+    width: 100%;
+  }
+
+  .add {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .client-box-final {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+  }
+}

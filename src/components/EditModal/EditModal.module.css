@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@600&display=swap");
+
+.box_input {
+  display: flex;
+}
+
+.input_duo {
+  margin-right: 25px;
+}
+
+label {
+  color: #344054;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.errorMessage {
+  color: #e70000;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.passwordInput {
+  margin-bottom: 10px;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  position: relative;
+  right: 25px;
+  top: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.box_actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn_app {
+  width: 160px;
+  padding: 4px 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #da0175;
+  color: #fff;
+  cursor: pointer;
+}

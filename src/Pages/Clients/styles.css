@@ -1,0 +1,11 @@
+.container-clients {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #f8f8f9;
+}
+
+.Prim {
+  height: 100vh;
+  width: 100vw;
+}

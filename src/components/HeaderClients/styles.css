@@ -1,0 +1,70 @@
+.header-clients-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin: 30px 40px;
+  padding: 0 3%;
+}
+
+.header-clients-icon {
+  display: flex;
+  align-items: center;
+}
+
+.header-clients-btn-search {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 1px 2px 5px 1px rgba(218, 1, 117, 0.3);
+}
+
+.search-box img {
+  width: 24px;
+  cursor: pointer;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  margin-left: 10px;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 260px;
+}
+
+.btn-add-client {
+  font-size: 18px;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+
+  min-width: 264px;
+
+  color: #f8f8f9;
+  background: #da0175;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
+
+.btn-add-client:hover,
+.btn-add-client:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #da0175;
+}

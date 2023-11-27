@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-bottom: #acd9c5 solid 2px;
+  padding: 10px 90px;
+  margin: 15px 40px;
+}
+
+.header strong {
+  color: var(--cinzas-cinza-1, #343447);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.edit-logout-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+/* classname = home */
+.header-home {
+  display: flex;
+  align-items: center;
+  color: #0e8750;
+}
+
+.header-home h2 {
+  color: #343447;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+
+  margin-left: 50px;
+}
+
+/* classsname = clients */
+
+.header-clients h2 {
+  display: flex;
+  align-items: end;
+
+  color: #0e8750;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
